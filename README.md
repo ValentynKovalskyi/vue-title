@@ -12,6 +12,7 @@ npm install vue-title-directive
 
 main.js
 ```js
+import App from './App.vue'
 import vTitle from 'vue-title-directive'
 
 const app = createApp(App)
