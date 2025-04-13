@@ -1,0 +1,24 @@
+{
+  "name": "vue-title",
+  "version": "1.0.0",
+  "description": "Vue directive to automatically add attribute title based on textContent of element",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.io/ValentynKovalskyi/v-title"
+  },
+  "keywords": [
+    "vue",
+    "custom",
+    "directive",
+    "vue",
+    "3",
+    "vue.js",
+    "directive"
+  ],
+  "author": "Valentyn Kovalskyi",
+  "license": "ISC"
+}
