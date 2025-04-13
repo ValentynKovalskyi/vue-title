@@ -1,6 +1,6 @@
 # Vue title directive
 
-![alt text](<demo.gif>)
+![demo](<https://github.com/ValentynKovalskyi/vue-title-directive/blob/master/demo.gif?raw=true>)
 
 ## Installation
 
@@ -23,7 +23,7 @@ Component
 
 ```html
 <template>
-    <p v-title>Long text</p>
+    <p v-title>Long <span>text</span></p>
 </template>
 <style scoped>
 p {
