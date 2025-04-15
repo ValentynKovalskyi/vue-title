@@ -35,3 +35,18 @@ p {
 }
 </style>
 ```
+ 
+ ## Arguments
+
+|Argument|Description|Example|
+|--------|-----------|-------|
+|always|Title showed instantly. Default value|```v-title.always```|
+|overflow|Title showed only when content horizontally overflows container|```v-title.overflow```|
+
+### You can also specify title value explicitly:
+
+```html
+<p v-title.always="Long version of name">Short name<p>
+```
+
+Using on Components is not recommended, since using of custom directives on components [is not recommended in official vue guide](https://vuejs.org/guide/reusability/custom-directives.html#usage-on-components). But if you have to use it on Component, be sure that component have only one root node.
