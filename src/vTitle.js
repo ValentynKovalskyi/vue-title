@@ -9,7 +9,7 @@ const args = {
  */
 
 export const vTitle =  (el, binding, vnode) => {
-    const content = el.textContent;
+    const content = binding.value || el.textContent;
     if (binding.arg === args.ALWAYS || !binding.arg) {
         el.setAttribute('title', content);
     } else if (binding.arg === args.OVERFLOW) {
