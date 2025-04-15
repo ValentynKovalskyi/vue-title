@@ -1,6 +1,6 @@
 {
   "name": "vue-title-directive",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Vue directive to automatically add attribute title based on textContent of element",
   "main": "index.js",
   "repository": {
