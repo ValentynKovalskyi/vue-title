@@ -1,13 +1,19 @@
 {
   "name": "vue-title-directive",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Vue directive to automatically add attribute title based on textContent of element",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ValentynKovalskyi/vue-title-directive"
   },
-"keywords": ["vue", "directive", "ellipsis", "tooltip", "text-overflow"],
+  "keywords": [
+    "vue",
+    "directive",
+    "ellipsis",
+    "tooltip",
+    "text-overflow"
+  ],
   "author": "Valentyn Kovalskyi",
   "license": "ISC"
 }
